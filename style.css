@@ -1,0 +1,140 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    margin: 0;
+}
+
+.mainFrame{
+    background-color: white;
+    width: 50%;
+    margin: 50px auto;  
+    padding: 20px;
+    border-radius: 9px;
+}
+.photo{
+    width: 100%;
+    border-radius: 8px;
+}
+.discription{
+    font-size: 16px;
+}
+.preparationTime{
+    background-color: hsl(330, 100%, 98%);
+    font-family: 'Outfit';
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+}
+.preparationTime h4{
+    color:  hsl(332, 51%, 32%);
+    padding-left: 15px;
+}
+.preparationTime span{
+    font-weight: bold;
+}
+.preparationTime li{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    list-style-type: none;
+}
+.preparationTime li::before{
+    content: '\2022'; 
+    color: black; 
+    display: inline-block;
+    width: 1em; 
+    font-size: 1em; 
+    margin-left: -2em; 
+    vertical-align: top;
+    padding-bottom: 5px;
+    padding-right: 15px ;
+}
+.preparationTime li::marker{
+    font-size: 8px; 
+}
+.headers{
+    color:  hsl(14, 45%, 36%);
+
+}
+.ingredients{
+    font-family: Outfit;
+    font-size: 16px;
+}
+.ingredients li{
+    list-style-type: none;
+}
+.ingredients li::before{
+    content: '\2022'; 
+    color: black; 
+    display: inline-block;
+    width: 1em; 
+    font-size: 1em; 
+    margin-left: -2em; 
+    vertical-align: top;
+    padding-bottom: 5px;
+    padding-right: 15px ;
+}
+.instructions{
+    font-family:Outfit;
+    font-size: 16px;
+}
+.instructions span{
+    font-weight: bold;
+}
+.instructions li{
+    padding-left: 15px;
+}
+.instructions li::marker{
+ color: hsl(14, 45%, 36%);
+ font-weight: bold;
+}
+.nutrition{
+    font-family: Outfit;
+}
+#tableDescription{
+    font-size: 16px;
+}
+.nutrition td{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    width: 50%;
+    padding: 5px;
+}
+.nutrition th{
+    font-weight: normal;
+    padding-bottom: 5px;
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+    
+}
+
+.nutrition tr{
+    border-bottom: 1px solid black;
+}
+.nutrition tr:last-child{
+    border-bottom:none ;
+}
+.nutrition table{
+    width: 100%;
+    padding:0px 20px;
+    border-collapse: collapse;
+}
+@media screen and (max-width:375px) {
+    .mainFrame{
+        width : 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        box-sizing: border-box;
+        
+    }
+    .photo{
+        border-radius: 0;
+    }
+    .smallerFrame{
+        padding:0px 15px;
+    }
+    
+}
