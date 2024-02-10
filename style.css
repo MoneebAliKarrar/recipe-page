@@ -121,7 +121,7 @@ body{
     padding:0px 20px;
     border-collapse: collapse;
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:800px) {
     .mainFrame{
         width : 100%;
         padding: 0;
